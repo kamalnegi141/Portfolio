@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&family=Roboto:wght@100&family=Satisfy&family=Yusei+Magic&display=swap');
+.skilldetail{
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    padding: 0;
+}
+.skill-menu{
+    flex: 0 0 40%;
+    margin-left: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.resume-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: white;
+    border: 3px solid #f5b041;
+    left: -2%;
+}
+.resume-item{
+    border-left: 2px solid rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.resume-item h4{
+    
+    font-family: 'Noto Sans JP';
+    font-weight: 530;
+}
+.resume-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+.resume-title span{
+    display: inline-block;
+    margin-right: 20px;
+    color:  #f5b041;
+    font-size: 40px;
+}
+.resume-item span{
+    color:  #8e44ad ;
+    margin-right: 15px;
+}
+.resume-item p{
+    font-family: 'Yusei Magic';
+    font-size: 16px;
+}
+.resume-item h5{
+    position: relative;
+    font-family: 'Noto Sans JP';
+    font-weight: 550;
+}
+.year{
+    background-color: rgba(0, 0, 0, 0.15);
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    margin-left: 40px;
+    font-family: 'Satisfy';
+    font-size: 18px;
+    border-radius: 5px;
+}
+@media screen and (max-width:1000px){
+    .resume-item h4 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:860px){
+    .skilldetail{
+        flex-direction: column;
+        margin: 0;
+    }
+}
+@media screen and (max-width:550px){
+    .resume-item h4{
+        font-size: 18px;
+    }
+    .resume-item p{
+        font-size: 16px;
+    }
+    .skill-menu{
+        margin: 0px 30px;
+    }
+}
+@media screen and (max-width:400px){
+    .resume-item h4{
+        font-size: 16px;
+    }
+    .resume-item p{
+        font-size: 14px;
+    }
+}

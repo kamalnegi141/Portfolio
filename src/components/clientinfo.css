@@ -1,0 +1,37 @@
+.cinfo{
+    display: flex;
+}
+.cinfo span{
+    font-size: 50px;
+}
+.cinfo-detail{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.cinfo-detail span{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 800;
+}
+.cinfo-detail h1{
+    font-size: 50px;
+}
+.cinfo-detail p{
+    margin-top: -12px;
+}
+@media screen and (max-width:700px){
+    .cinfo span{
+        font-size: 35px;
+    }
+    .cinfo-detail h1{
+        font-size: 35px;
+    }
+    .cinfo-detail p span{
+        font-size: 18px;
+    }
+    .cinfo-detail p{
+        font-size: 16px;
+    }
+}

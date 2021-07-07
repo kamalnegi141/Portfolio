@@ -1,0 +1,15 @@
+.detail{
+    display: flex;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.arrowicon{
+    color:  #f1c40f ;
+}
+.leftside{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.9);
+}
+.detail p{
+    color: rgba(0, 0, 0, 0.6);
+}
